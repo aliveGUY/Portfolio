@@ -13,7 +13,6 @@ body {
   left: 0;
   right: 0;
   background: #3c3a39;
-  color: #fff5e1;
   height: var(--TopBar-Height);
   align-items: center;
 }
@@ -29,18 +28,22 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
+  text-decoration: none;
+  color: #fff5e1;
 }
 
 .Burger-Menu {
+  display: flex;
   position: absolute;
+  justify-content:center ;
   width: 40px;
   height: 40px;
   right: 24px;
+}
+
+.Burger-Menu button {
   border: none;
   background: none;
-  background-image: url(src/img/Union.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .headline {
@@ -81,33 +84,19 @@ body {
   padding-top: 12px;
 }
 
-.Headline-links {
+.Social-media {
+  padding-top: 12px;
   display: flex;
 }
 
-.Headline-links a {
-  background-repeat: no-repeat;
-  background-position: center;
+.Social-media li {
+  list-style: none;
   height: 40px;
   width: 40px;
 }
 
-.GitHub-link {
-  background-image: url(src/img/GitHub.png);
-}
-
-.LinkedIn-link {
-  background-image: url(src/img/Linkdn.png);
-}
-
-.Hand-link {
-  background-image: url(src/img/Hand.png);
-}
-
-.Twitter-link {
-  background-image: url(src/img/twitter.png);
-}
-
-.M-link {
-  background-image: url(src/img/M.png);
+.Social-media li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
