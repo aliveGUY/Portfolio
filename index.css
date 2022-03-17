@@ -3,10 +3,111 @@
   margin: 0;
 }
 
-.header {
+body {
+  --TopBar-Height: 48px;
+}
+
+.TopBar {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
   background: #3c3a39;
+  color: #fff5e1;
+  height: var(--TopBar-Height);
+  align-items: center;
+}
+
+.Logo-Plceholder {
+  display: flex;
+  align-items: center;
+  left: 12px;
+  padding: 10px 12px;
+}
+
+.Logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Burger-Menu {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  border: none;
+  background: none;
+  background-image: url(src/img/Union.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background: #1c1a19;
+  height: 100vh;
+  background-image: url(src/img/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: right bottom -48px;
+}
+
+.headline-content {
+  padding-top: calc(120px + var(--TopBar-Height));
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #fff5e1;
+}
+
+.headline-content h1 {
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+}
+
+.headline-content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 12px;
+}
+
+.headline-content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+.Headline-links {
+  display: flex;
+}
+
+.Headline-links a {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+}
+
+.GitHub-link {
+  background-image: url(src/img/GitHub.png);
+}
+
+.LinkedIn-link {
+  background-image: url(src/img/Linkdn.png);
+}
+
+.Hand-link {
+  background-image: url(src/img/Hand.png);
+}
+
+.Twitter-link {
+  background-image: url(src/img/twitter.png);
+}
+
+.M-link {
+  background-image: url(src/img/M.png);
 }
