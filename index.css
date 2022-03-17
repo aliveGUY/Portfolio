@@ -35,7 +35,7 @@ body {
 .Burger-Menu {
   display: flex;
   position: absolute;
-  justify-content:center ;
+  justify-content: center;
   width: 40px;
   height: 40px;
   right: 24px;
@@ -90,13 +90,10 @@ body {
 }
 
 .Social-media li {
-  list-style: none;
-  height: 40px;
-  width: 40px;
-}
-
-.Social-media li {
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
+  height: 40px;
+  width: 40px;
 }
