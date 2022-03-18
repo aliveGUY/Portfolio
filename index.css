@@ -89,7 +89,7 @@ body {
 }
 
 @media only screen and (max-width: 318px) {
-  .headline{
+  .headline {
     height: auto;
   }
 }
