@@ -7,7 +7,7 @@ body {
   --TopBar-Height: 48px;
 }
 
-button {
+.button-reg {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -18,19 +18,19 @@ button {
   border: none;
 }
 
-button:hover {
+.button-reg:hover {
   background: #fff5e1;
   color: #f55800;
   padding: 11px;
   border: 1px solid #f55800;
 }
 
-button:active {
+.button-reg:active {
   background: #e05304;
   color: #f4f1f0;
 }
 
-button:disabled {
+.button-reg:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
@@ -85,9 +85,19 @@ button:disabled {
   background-image: url(src/img/Illustration.png);
   background-repeat: no-repeat;
   background-position: right bottom -48px;
+  padding-bottom: 12px;
+}
+
+@media only screen and (max-width: 318px) {
+  .headline{
+    height: auto;
+  }
 }
 
 .headline-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding-top: calc(120px + var(--TopBar-Height));
   padding-left: 24px;
   padding-right: 24px;
@@ -117,6 +127,7 @@ button:disabled {
 .Social-media {
   padding-top: 12px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Social-media li {
@@ -187,11 +198,12 @@ button:disabled {
 .Works-Card-Categories {
   display: flex;
   list-style: none;
-  margin-bottom: 12px;
+  flex-wrap: wrap;
 }
 
 .Works-Card-Categories li {
   margin-right: 12px;
+  margin-bottom: 12px;
   padding: 10px 12px;
   border: 1px solid #091e42;
 }
@@ -273,26 +285,30 @@ button:disabled {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 100vh;
   padding: 0 24px;
   background-image: url(src/img/Frame.png);
-  background-position: bottom 12% right;
+  background-position: bottom 15% right;
   background-repeat: no-repeat;
 }
 
-.About-headline h1 {
+.About-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
+  height: 30vh;
   color: #ff6b00;
-  margin-bottom: 12px;
+  padding: 0 24px;
 }
 
 .About-headline p {
   margin: 12px 0;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .About-headline button {
@@ -301,7 +317,7 @@ button:disabled {
 }
 
 .hr {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   width: 100%;
   color: #fff;
 }
@@ -312,6 +328,7 @@ button:disabled {
 
 .Categories-all {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   font-weight: 700;
