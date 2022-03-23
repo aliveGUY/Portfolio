@@ -386,9 +386,7 @@ body {
 }
 
 .Form-text {
-  margin: 0;
-  width: 327px;
-  float: left;
+  max-width: 455px;
   margin-bottom: 58px;
 }
 
@@ -407,7 +405,6 @@ body {
 
 .Form-list {
   list-style: none;
-  width: 100%;
 }
 
 .Form-input {
