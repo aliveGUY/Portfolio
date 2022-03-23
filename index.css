@@ -200,14 +200,11 @@ body {
 }
 
 .Works-Card-Categories li {
-  float: left;
-}
-
-.Works-Card-Categories li {
   margin-right: 12px;
   margin-bottom: 12px;
   padding: 10px 12px;
   border: 1px solid #091e42;
+  float: left;
 }
 
 .Works-SeeProject button {
@@ -385,7 +382,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:  120px 25px;
+  padding: 120px 25px;
 }
 
 .Form-text {
@@ -397,7 +394,7 @@ body {
 
 .Form-text h2 {
   font-family: 'Inter', sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
