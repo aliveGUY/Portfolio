@@ -196,9 +196,11 @@ body {
 }
 
 .Works-Card-Categories {
-  display: flex;
   list-style: none;
-  flex-wrap: wrap;
+}
+
+.Works-Card-Categories li {
+  float: left;
 }
 
 .Works-Card-Categories li {
@@ -377,4 +379,88 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:  120px 25px;
+}
+
+.Form-text {
+  margin: 0;
+  width: 327px;
+  float: left;
+  margin-bottom: 58px;
+}
+
+.Form-text h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.Form-form {
+  width: 100%;
+}
+
+.Form-list {
+  list-style: none;
+  width: 100%;
+}
+
+.Form-input {
+  border: none;
+  border-bottom: 2px solid #d8d8d7;
+  margin-bottom: 24px;
+  width: calc(100% - 16px);
+  padding: 15px 0;
+  padding-left: 16px;
+}
+
+.Form-input::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+textarea[name="user_message"] {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  color: #3c3a39;
+  padding: 12px;
+  width: calc(100% - 24px);
+  height: 90px;
+  border: none;
+  background: #fbf8f7;
+  margin-bottom: 24px;
+  resize: vertical;
+}
+
+.Form-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #dfe1e6;
+  clear: both;
+}
+
+.Social-media#dark li {
+  align-items: flex-end;
+  height: max-content;
+  padding: 0;
 }
