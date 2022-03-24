@@ -21,15 +21,15 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ### Install
-- [ ] **Run git clone https://github.com/aliveGUY/Portfolio.git this will clone repository on your local machine**
+- [ ] Run **_git clone https://github.com/aliveGUY/Portfolio.git_** this will clone repository on your local machine
 
 ### Usage
-- [ ] **Run cd Portfolio now you ready to use repo**
-- [ ] **Run checkout < branchname > to crreate your own branch**
+- [ ] Run **_cd Portfolio_** now you ready to use repo
+- [ ] Run **_git checkout (branchname)_** to crreate your own branch
 
 ### Run tests
-- [ ] **Run npx stylelint ["**/*.{css,scss}"] to make sure styles written properly**
-- [ ] **Run npx hint . to make sure HTML markup written properly**
+- [ ] Run **_npx stylelint " **/*.{css,scss}" **_** to make sure styles written properly
+- [ ] Run **_npx hint ._** to make sure HTML markup written properly
 
 ### Deployment
 - [ ] **Commit and push changes using:**
