@@ -15,10 +15,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-- [ ] **Open your terminal and enter desired folder for this repo using cd path/path**
-
 ### Setup
+- [ ] Open your terminal and enter desired folder for this repo using cd path/path
 
 ### Install
 - [ ] Run **_git clone https://github.com/aliveGUY/Portfolio.git_** this will clone repository on your local machine
