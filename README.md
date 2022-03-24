@@ -10,38 +10,37 @@
 - HTML, CSS
 - NPM, JSON, GIT
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
+- [ ] Open your terminal and enter desired folder for this repo using cd path/path
 
 ### Install
+- [ ] Run **_git clone https://github.com/aliveGUY/Portfolio.git_** this will clone repository on your local machine
 
 ### Usage
+- [ ] Run **_cd Portfolio_** now you ready to use repo
+- [ ] Run **_git checkout (branchname)_** to crreate your own branch
 
 ### Run tests
+- [ ] Run **_npx stylelint " **/*.{css,scss}" **_** to make sure styles written properly
+- [ ] Run **_npx hint ._** to make sure HTML markup written properly
 
 ### Deployment
-
+- [ ] **Commit and push changes using:**
+* git add .
+* git commit -m "commit"
+* git push origin < branchname >
 
 
 ## Author
 
 - GitHub: [@githubhandle](https://github.com/aliveGUY)
-- Twitter: [@twitterhandle](https://twitter.com/home)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
+- Twitter: [@twitterhandle](https://twitter.com/Sciborskyy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ilya-dubrovin-921a2721b/)
 
 ## 🤝 Contributing
 
