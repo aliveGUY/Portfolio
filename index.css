@@ -290,7 +290,7 @@ body {
 }
 
 .About-headline {
-  height: 50vh;
+  height: auto;
   border-bottom: #fff 1px solid;
 }
 
@@ -303,13 +303,7 @@ body {
 
 .About-headline button {
   margin-top: 12px;
-  margin-bottom: 30vh;
-}
-
-.hr {
-  margin-bottom: 5%;
-  width: 100%;
-  color: #fff;
+  margin-bottom: calc(max(9vw, 30vh));
 }
 
 /* -------------------------------------------------------------------------------------------------------- */
@@ -342,7 +336,7 @@ body {
   list-style-position: inside;
 }
 
-.Categories-iner ul li {
+.Categories-iner-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -445,7 +439,13 @@ textarea[name="user_message"]::placeholder {
   padding: 0;
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-height: 480px) {
+  .headline {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 377px) {
   .headline {
     height: auto;
     padding-bottom: 200px;
@@ -475,7 +475,7 @@ textarea[name="user_message"]::placeholder {
   }
 
   .headline-content {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     grid-area: headline;
@@ -612,6 +612,7 @@ textarea[name="user_message"]::placeholder {
 
   /* -------------------------------------------------------------------------------------------------------- */
   .About {
+    height: auto;
     background-image: url(src/img/illustration-about-big.png);
     background-position: right top calc(100vh / 6);
     background-size: calc(min(50vw, 50%));
@@ -622,14 +623,14 @@ textarea[name="user_message"]::placeholder {
   .About-title {
     padding-top: 20%;
     font-size: 72px;
-    line-height: 81.5px;
+    line-height: 5.2vw;
     color: #ff6b00;
   }
 
   .About-headline p {
     margin: 12px 0;
     font-size: 20px;
-    line-height: 32px;
+    line-height: calc(min(2.5vw, 32px));
     max-width: 49%;
   }
 
@@ -778,7 +779,7 @@ textarea[name="user_message"]::placeholder {
   }
 
   .Social-media#top {
-    height: 100vh;
+    height: 100%;
     padding-top: 0;
     justify-content: center;
     flex-direction: column;
