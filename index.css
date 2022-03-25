@@ -18,6 +18,7 @@ body {
   border: none;
 }
 
+/* transition: 1; */
 .button-reg:hover {
   background: #fff5e1;
   color: #f55800;
