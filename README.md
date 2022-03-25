@@ -23,7 +23,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 - [ ] Run **_cd Portfolio_** now you ready to use repo
-- [ ] Run **_git checkout (branchname)_** to crreate your own branch
+- [ ] Run **_git branch (branchname)_** to create your own branch
+- [ ] Run **_git checkout (branchname)_** you can use it this way
 
 ### Run tests
 - [ ] Run **_npx stylelint " **/*.{css,scss}" **_** to make sure styles written properly

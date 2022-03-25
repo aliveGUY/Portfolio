@@ -366,7 +366,7 @@ body {
 
 .Form-text {
   max-width: 425px;
-  margin-bottom: 58px;
+  margin: 45px 0;
 }
 
 .Form-text h2 {
@@ -475,27 +475,28 @@ textarea[name="user_message"]::placeholder {
   }
 
   .headline-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     grid-area: headline;
-    left: 143px;
-    padding-top: calc(22.1vh + var(--TopBar-Height));
-    width: 90vw;
-    max-width: 575px;
+    padding-top: 0;
+    max-width: 50vw;
   }
 
   .headline-content h1 {
     font-size: 72px;
-    line-height: 81px;
+    line-height: 82.5px;
   }
 
   .headline-content h2 {
     padding: 24px 0;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 3vw;
   }
 
   .headline-content p {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 3.2vw;
   }
 
   /* -------------------------------------------------------------------------------------------------------- */
@@ -661,10 +662,12 @@ textarea[name="user_message"]::placeholder {
 
   .Form {
     flex-direction: row;
-    padding: 130px 10% 25vh 10%;
+    height: 100vh;
+    padding: 0 10%;
   }
 
   .Form-text {
+    margin: 0;
     margin-right: 24px;
   }
 
@@ -686,6 +689,8 @@ textarea[name="user_message"]::placeholder {
 
   /* ---------------------- */
   .Topbar-Desk-Nav ul li {
+    display: flex;
+    align-items: center;
     list-style: none;
     margin-right: 8px;
   }
@@ -764,6 +769,7 @@ textarea[name="user_message"]::placeholder {
   }
 
   .Topbar-Desk-Nav ul li a {
+    font-family: 'Init', sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -772,7 +778,9 @@ textarea[name="user_message"]::placeholder {
   }
 
   .Social-media#top {
-    padding-top: calc(33.2vh + var(--TopBar-Height));
+    height: 100vh;
+    padding-top: 0;
+    justify-content: center;
     flex-direction: column;
     grid-area: social;
   }
