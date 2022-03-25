@@ -54,6 +54,11 @@ body {
   align-items: center;
   left: 12px;
   padding: 10px 0;
+  transition: background-color 1.5s;
+}
+
+.Logo-Placeholder:hover{
+  background-color: red;
 }
 
 .Logo {
