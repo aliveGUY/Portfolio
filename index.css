@@ -16,7 +16,7 @@ body {
   background: #ff6b00;
   color: #fff;
   border: none;
-  transition: background-color 2s, transform 2s;
+  transition: background-color 0.2s;
 }
 
 .button-reg:hover {
@@ -53,11 +53,6 @@ body {
   align-items: center;
   left: 12px;
   padding: 10px 0;
-  transition: background-color 1.5s;
-}
-
-.Logo-Plceholder:hover{
-  background-color: red;
 }
 
 .Logo {
@@ -229,7 +224,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -581,7 +577,6 @@ textarea[name="user_message"]::placeholder {
   .Works-Card {
     min-height: 435px;
     margin-right: 24px;
-    transition: background 0.4s;
   }
 
   .Works-Card-Content {
@@ -596,7 +591,6 @@ textarea[name="user_message"]::placeholder {
 
   .Works-Card:hover {
     background: url(src/img/Card-Background.png) no-repeat center;
-    background-size: cover;
   }
 
   .Works-Card:hover .Works-Card-Content {
