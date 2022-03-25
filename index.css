@@ -19,7 +19,6 @@ body {
   transition: background-color 2s, transform 2s;
 }
 
-/* transition: 1; */
 .button-reg:hover {
   background: #fff5e1;
   color: #f55800;
@@ -57,7 +56,7 @@ body {
   transition: background-color 1.5s;
 }
 
-.Logo-Placeholder:hover{
+.Logo-Plceholder:hover{
   background-color: red;
 }
 
@@ -582,6 +581,7 @@ textarea[name="user_message"]::placeholder {
   .Works-Card {
     min-height: 435px;
     margin-right: 24px;
+    transition: background 0.4s;
   }
 
   .Works-Card-Content {
